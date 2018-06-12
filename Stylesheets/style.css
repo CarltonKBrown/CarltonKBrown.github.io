@@ -335,7 +335,7 @@ button:focus {
 }
 
 .custom-nav .navbar-nav li a,
-.navbar-brand {
+.custom-nav .navbar-brand {
     color: #fff;
     font-size: 16px;
     background-color: transparent !important;
@@ -356,8 +356,7 @@ button:focus {
 }
 
 .custom-nav .navbar-nav li a:before,
-.custom-nav.stickyadd .navbar-nav li a:before,
-.navbar-brand:before {
+.custom-nav.stickyadd .navbar-nav li a:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -373,8 +372,7 @@ button:focus {
     transition: all 0.3s ease 0s;
 }
 
-.custom-nav.stickyadd .navbar-nav li a:before,
-.navbar-brand:before {
+.custom-nav.stickyadd .navbar-nav li a:before {
     background: #000 !important;
 }
 
@@ -386,7 +384,7 @@ button:focus {
 }
 
 .custom-nav.stickyadd .navbar-nav li a,
-.navbar-brand {
+.custom-nav.stickyadd .navbar-brand {
     color: #000;
 }
 
